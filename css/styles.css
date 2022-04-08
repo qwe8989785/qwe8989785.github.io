@@ -11507,3 +11507,28 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.profileImg{
+  margin-left: 400px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,0,0,1.00);
+}
+
+.profileTitle{
+  margin-left: 475px;
+}
+
+.profileTitleEng{
+  margin-left: 425px;
+}
+
+.profileTextPos{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.profileText{
+  margin-top: 10px;
+  width : 500px;
+}

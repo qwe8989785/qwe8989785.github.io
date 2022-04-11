@@ -29,7 +29,6 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">經歷介紹</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">作品</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">聯絡方式</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,6 +50,7 @@
                     <img class="masthead-avatar mb-5 profileImg" src="assets/img/profile.jpg" alt="..." />
                     <h2 class="profileTitle text-center text-uppercase text-secondary mb-0">高瑋志</h2>
                     <h2 class="profileTitleEng text-center text-secondary mb-0">Wayne Gao</h2>
+                    <h3 class="text-center text-secondary mb-0" style="margin-left:350px">qwe8989785@gmail.com</h3>
                 </div>
                 <div class="d-flex align-items-start flex-column profileTextPos">
                     <h2 class=" text-center text-secondary mb-0">Hi,我是Wayne!</h2>
@@ -71,7 +71,7 @@
         <section class="page-section bg-secondary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">作品</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -79,126 +79,84 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                <div class="d-flex flex-column" style="margin-left : 200px">
+                    <div class="d-flex flex-column">
+                        <h4 class="mb-0" style="margin-top: 10px;">1. Fiesta 學生活動票卷販賣系統後端API:</h4>
+                        <div class="d-flex flex-row">
+                            <p class="profileText lead">Fiesta是基於學生族群的活動售票系統，其中後端功能包含會員系統、活動、票卷等等，方便的功能包含產生入場QRCode驗票，發送會員驗證信，串接金流。整個後端架構是用Flask Framework + mySQL 實作而成。資料庫部分也是本人親自設計，遵守正規原則。
+                            </p>
+                            <div class="text-center mt-4" style="margin-left: 50px;">
+                                <a class="btn btn-xl btn-outline-light" href="https://github.com/qwe8989785/Fiesta">
+                                    <i class="fas fa-download me-2"></i>
+                                    Github連結
+                                </a>
                             </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h4 class="mb-0" style="margin-top: 10px;">2. 高科大英文聽說讀寫專案系統後端API:</h4>
+                        <div class="d-flex flex-row">
+                            <p class="profileText lead">本系統為一英文練習平台，在上面可以練習聽說讀寫，後端API功能實作Spacy之相關功能，使用Django作為主體架構，搭配mySQL + nginx + uwsgi 以完成完整服務。
+                            </p>
+                            <div class="text-center mt-4" style="margin-left: 50px;">
+                                <a class="btn btn-xl btn-outline-light" href="https://github.com/qwe8989785/Nkust_EnglishProject">
+                                    <i class="fas fa-download me-2"></i>
+                                    Github連結
+                                </a>
                             </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h4 class="mb-0" style="margin-top: 10px;">3. 狗狗辨識系統:</h4>
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <p class="profileText lead">本系統為了練習影像辨識而建置，在上面可以上傳你的狗狗照片，我們將告訴你你上傳的照片中的狗狗是甚麼狗狗。採用Django建置，搭配yolo及ResNet50模型進行訓練，以達成辨識效果。
+                                </p>
+                                <h5 class="mb-0" style="margin-top: 10px;">參考資料:</h5>
+                                <a class="btn btn-xl btn-outline-light" href="https://www.kaggle.com/jessicali9530/stanford-dogs-dataset">
+                                    Stanford Dogs Dataset
+                                </a>
+                                <a class="btn btn-xl btn-outline-light" href="https://www.kaggle.com/samshenvi/stanford-dogs-resnet50">
+                                    Stanford Dogs Resnet50
+                                </a>
                             </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            <div class="text-center mt-4" style="margin-left: 50px;">
+                                <a class="btn btn-xl btn-outline-light" href="https://github.com/qwe8989785/DogProject">
+                                    <i class="fas fa-download me-2"></i>
+                                    Github連結
+                                </a>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </section>
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
-                <div class="row">
+                <div class="row" style="margin-left:250px">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            台南市
                             <br />
-                            Clark, MO 65243
+                            安南區
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100000504288665"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/qwe8989785/"><i class="fab fa-fw fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+            <div class="container"><small>Copyright &copy; Wayne's Page 2022</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->

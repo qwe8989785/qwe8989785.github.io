@@ -27,7 +27,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">經歷介紹</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">個人介紹</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#works">經歷</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">作品</a></li>
                     </ul>
                 </div>
@@ -37,7 +38,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">經歷介紹</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">個人介紹</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -55,18 +56,70 @@
                 <div class="d-flex align-items-start flex-column profileTextPos">
                     <h2 class=" text-center text-secondary mb-0">Hi,我是Wayne!</h2>
                     <p class="profileText text-center  text-secondary mb-0">
-                        我是台南人，畢業於高雄科技大學資訊管理系，在大學時期研究網站後端技術，目前進行後端開發，前端及機器學習也有一定基礎。
+我來自台南，自幼便深陷電腦的世界，這深遠地影響了我未來的求學和職涯方向，使我一直與資訊科技領域保持著密不可分的聯繫。<br>
+在高中時，我進一步探索了網路管理這個領域。在老師的悉心指導下，我成功地獲得了教育部及勞動部的技能競賽獎項，也借此優勢成功推甄進入了高雄科技大學。<br>
+在大學階段，我持續充實自己的程式能力，將Python視為我的主要武器，用以進行專題開發和其他專案的撰寫。<br>
+除了程式技能外，我積極參與了籃球系隊。在這個過程中，我學到了團隊合作、溝通和互助的重要性，並建立了一群可靠的朋友。<br>
+經過大學階段的種種磨練，我目前擅長後端開發，使用Python的FastAPI和Django框架撰寫API，同時也涉獵機器學習和影像辨識等技術。然而，我深信學無止境，因此在閒暇時繼續探索新技術，例如Ruby on Rails、React.js等。
                     </p>
                     <p class="profileText text-center  text-secondary mb-0">
-                        主要開發工具為Python Flask、Django Framework，mySQL，nginx，C++。
+                        主要開發工具為Python FastAPI、Django Framework，PostgreSQL。
                     </p>
-                    <h4 class="text-center text-secondary mb-0" style="margin-top: 10px;">經歷:</h4>
-                    <p class="profileText text-center  text-secondary mb-0">全國技能競賽 資訊與網路技術 分區賽第四、五名</p>
-                    <p class="profileText text-center  text-secondary mb-0">全國技藝競賽 工業類科 電腦修護 優勝</p>
-                    <p class="profileText text-center  text-secondary mb-0">蓋瑞科技有限公司 - 駐點軟體後臺程式設計師 ( 2021/08 ~ 2021/11 )</p>
                 </div>
             </div>
         </header>
+        <!-- Work experience Section-->
+        <section class="page-section bg-secondary text-white mb-0" id="works">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">經歷</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="d-flex flex-column" style="margin-left : 200px">
+                    <div class="d-flex flex-column">
+                        <h4 class="mb-0" style="margin-top: 10px;">1. 玩構網路科技有限公司 - 後端工程師 ( 2022/08 ~ 2023/08 ):</h4>
+                        <div class="d-flex flex-row">
+                            <ol>
+                                <li>Genape產品開發: 
+                                    <ul>
+                                        <li>參與Genape從概念到實現的全程開發過程。</li>
+                                        <li>使用敏捷開發方法，確保迅速且靈活地應對需求變化。</li>
+                                        <li>主導Python FastAPI框架的後端開發，實現高效且穩定的產品。</li>
+                                        <li>設計和實施適切的資料庫結構，確保系統高效運作。</li>
+                                    </ul>
+                                </li>
+                                <li>第三方平台整合: 
+                                    <ul>
+                                        <li>串接綠界金流，實作訂閱制的各項功能，包含每年或每月扣款及退訂等操作。</li>
+                                        <li>串接 OpenAI，並透過 prompt engineering 提升服務品質，提供前端進行串接。</li>
+                                        <li>串接 Brevo，依照用戶使用方式，將用戶分群，協助行銷完成自動化實現。</li>
+                                    </ul>
+                                </li>
+                                <li>GCP平台部署與優化: 
+                                    <ul>
+                                        <li>與雲端廠商的雲端顧問協作，將服務使用 Cloud Run 進行部屬，並透過 Load balancing 提升負載效能，Cloud Armor 增加資安防護。</li>
+                                        <li>透過 Cloud Build 與 Github 進行串接，完成自動化部屬。</li>
+                                        <li>使用金絲雀部屬方式，降低產品版本更新時帶來的風險。</li>
+                                        <li>優化雲端基礎建設架構，有效降低公司系統費用支出達10%。</li>
+                                    </ul>
+                                </li>
+                                <li>新人訓練:
+                                    <ul>
+                                        <li>負責新人訓練，成功帶領畢業生迅速熟悉FastAPI和資料庫設計等後端技術。</li>
+                                        <li>在平均一個月內，培養新進同仁熟悉工作內容，順利銜接開發。</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- About Section-->
         <section class="page-section bg-secondary text-white mb-0" id="about">
             <div class="container">
@@ -124,6 +177,39 @@
                                 <a class="btn btn-xl btn-outline-light" href="https://github.com/qwe8989785/DogProject">
                                     <i class="fas fa-download me-2"></i>
                                     Github連結
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h4 class="mb-0" style="margin-top: 10px;">4. FastAPI 簡易庫存系統:</h4>
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <p class="profileText lead">本系統是撰寫IT邦鐵人賽時所一起建構的簡易範例，為了可以讓看教學的人可以更清楚的學習，所以使用庫存系統做了一個簡單的範例。
+                                </p>
+                                <h5 class="mb-0" style="margin-top: 10px;">鐵人賽連結:</h5>
+                                <a class="btn btn-xl btn-outline-light" href="https://ithelp.ithome.com.tw/users/20152669/ironman/6306">
+                                    FastAPI 入門30天
+                                </a>
+                            </div>
+                            <div class="text-center mt-4" style="margin-left: 50px;">
+                                <a class="btn btn-xl btn-outline-light" href="https://github.com/qwe8989785/FastAPI_easy_Inventory">
+                                    <i class="fas fa-download me-2"></i>
+                                    Github連結
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h4 class="mb-0" style="margin-top: 10px;">5. Saltar 社交玩樂地圖App:</h4>
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <p class="profileText lead">我們致力於讓人們產生更多線下社交的機會及場景，我們利用遊戲化的構想，結合活動社群的特性，將索然無味的現實世界打造成類開放世界RPG的線下活動社群，並利用許多卡牌收集、交換、養成要素，使人們有更強烈的動機參與線下社交，並且沈浸在線下社交的樂趣當中。
+                                </p>
+                                <p class="profileText lead">本人負責後端API開發，使用FastAPI框架，並串接PostgreSQL資料庫，同時也使用 aws 的 dynamo db 及容器服務。</p>
+                                <h5 class="mb-0" style="margin-top: 10px;">官方網站:</h5>
+                                <a class="btn btn-xl btn-outline-light" href="https://saltar.vercel.app/">
+                                    Saltar
                                 </a>
                             </div>
                         </div>
